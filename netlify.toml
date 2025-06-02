@@ -1,8 +1,6 @@
- ```toml
- [build]
-   command = "npm run build"
-   publish = "." # Or your publish directory if different, e.g., "dist" or "build"
+[build]
+  command = "npm run build"
+  publish = "."
 
- [build.environment]
-   NODE_VERSION = "18" # Specify the Node.js version you want Netlify to use
- ```
+[build.environment]
+  NODE_VERSION = "18"
