@@ -1,0 +1,6 @@
+{
+  "name": "Copy of Not Your Tic Tac Toe",
+  "description": "A strategic two-player Tic Tac Toe variant where each player has three pieces. Players first place their pieces, then move them on the board to achieve three-in-a-row.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

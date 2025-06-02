@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Your Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom font similar to the image - apply to body or specific elements */
+      @import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Poppins:wght@400;600;700&display=swap');
+      body {
+        font-family: 'Poppins', sans-serif;
+        overscroll-behavior: none; /* Prevents pull-to-refresh on mobile */
+      }
+      .game-title {
+        font-family: 'Titan One', cursive;
+      }
+      .blurry-bg-element {
+        position: absolute;
+        font-family: 'Titan One', cursive;
+        opacity: 0.3;
+        filter: blur(3px);
+        z-index: 0;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-sky-500">
+    <div id="root"></div>
+    <script type="module" src="/main.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
