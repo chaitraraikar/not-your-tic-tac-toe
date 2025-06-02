@@ -5,9 +5,8 @@
   "description": "A strategic two-player Tic Tac Toe variant where each player has three pieces. Players first place their pieces, then move them on the board to achieve three-in-a-row.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild index.tsx --bundle --outfile=main.js --format=esm --platform=browser --jsx=automatic --external:react --external:react-dom --external:react-dom/client --external:react-router-dom"
-  },
+  "build": "esbuild index.tsx --bundle --outfile=main.js --format=esm --platform=browser --jsx=automatic --external:react --external:react-dom --external:react-dom/client --external:react-router-dom"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
